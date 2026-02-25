@@ -67,8 +67,8 @@ node-scaffold-kit/
 ### Step 1: Clone or Create Project
 ```bash
 # Create project directory
-mkdir my-project-migrations
-cd my-project-migrations
+mkdir my-project
+cd my-project
 
 # Initialize npm project
 npm init -y
