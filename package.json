@@ -1,0 +1,36 @@
+{
+  "name": "node-scaffold-kit",
+  "version": "1.0.0",
+  "description": "Professional CLI tool to scaffold MVC structure for Node.js",
+  "main": "bin/cli.js",
+  "bin": {
+    "node-scaffold-kit": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "init": "node bin/cli.js init",
+    "create:model": "node bin/cli.js create:model",
+    "create:controller": "node bin/cli.js create:controller",
+    "create:route": "node bin/cli.js create:route",
+    "create:all": "node bin/cli.js create:all",
+    "migrate:create": "node migrate.js create",
+    "migrate:up": "node migrate.js up",
+    "migrate:down": "node migrate.js down",
+    "migrate:rollback": "node migrate.js rollback",
+    "migrate:rollback:last": "node migrate.js down",
+    "migrate:rollback:to": "node migrate.js rollback",
+    "migrate:reset": "node migrate.js reset",
+    "migrate:refresh": "node migrate.js refresh",
+    "migrate:list": "node migrate.js list",
+    "migrate:status": "node migrate.js status",
+    "test:db": "node tests/test-connection.js"
+  },
+  "keywords": ["mvc", "scaffold", "cli"],
+  "author": "Ahmed Medhat",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.17.4"
+  }
+}
