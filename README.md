@@ -2,6 +2,10 @@
 
 > Developed by **Ahmed Medhat**
 
+<div align="center">
+  <img src="./public/code.png" alt="Commands" width="500" />
+</div>
+
 ---
 ## 📋 Project Overview
 **Node Scaffold Kit** is a lightweight, standalone database migration and project scaffolding tool built with pure Node.js core modules and minimal dependencies. It provides a structured approach to managing database schema changes and bootstrapping Node.js applications.
@@ -36,6 +40,8 @@ node-scaffold-kit/
 │   └── utils.js
 ├── migrations/
 ├── node_modules/
+├── public/
+│   └── code.png
 ├── tests/
 │   └── test-connection.js
 ├── .env
